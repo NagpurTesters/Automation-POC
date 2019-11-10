@@ -1,0 +1,199 @@
+2019-11-09 23:37:51,093 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2019-11-09 23:37:51,106 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-11-09 23:37:51,107 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {s}->https://ondemand.saucelabs.com:443][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-11-09 23:37:51,123 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {s}->https://ondemand.saucelabs.com:443][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-11-09 23:37:51,125 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {s}->https://ondemand.saucelabs.com:443
+2019-11-09 23:37:51,200 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to ondemand.saucelabs.com/66.85.49.22:443
+2019-11-09 23:37:51,201 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Connecting socket to ondemand.saucelabs.com/66.85.49.22:443 with timeout 120000
+2019-11-09 23:37:51,971 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-11-09 23:37:51,971 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-11-09 23:37:51,971 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Starting handshake
+2019-11-09 23:37:53,161 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Secure session established
+2019-11-09 23:37:53,161 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.2
+2019-11-09 23:37:53,161 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2019-11-09 23:37:53,161 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer principal: CN=ondemand.saucelabs.com
+2019-11-09 23:37:53,161 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer alternative names: [ondemand.saucelabs.com]
+2019-11-09 23:37:53,162 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=RapidSSL TLS RSA CA G1, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-11-09 23:37:53,166 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.43.135:59922<->66.85.49.22:443
+2019-11-09 23:37:53,166 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 10800000
+2019-11-09 23:37:53,166 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request POST /wd/hub/session HTTP/1.1
+2019-11-09 23:37:53,166 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2019-11-09 23:37:53,167 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2019-11-09 23:37:53,169 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2019-11-09 23:37:53,169 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-11-09 23:37:53,169 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Length: 1019
+2019-11-09 23:37:53,169 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Host: ondemand.saucelabs.com:443
+2019-11-09 23:37:53,169 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+2019-11-09 23:37:53,176 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231)
+2019-11-09 23:37:53,176 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Length: 1019[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Host: ondemand.saucelabs.com:443[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231)[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-09 23:37:53,177 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "{[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "app": "sauce-storage:http://github.com/NagpurTesters/Automation-POC/blob/master/Yatra/files/Yatra.apk",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "appiumVersion": "1.13.0",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platformVersion": "9.0",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "browserName": "",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "deviceOrientation": "portrait",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platformName": "Android",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "version": "",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "deviceName": "Samsung Galaxy S9 WQHD GoogleAPI Emulator",[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platform": "ANDROID"[\n]"
+2019-11-09 23:37:53,178 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  },[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "capabilities": {[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "app": "sauce-storage:http://github.com/NagpurTesters/Automation-POC/blob/master/Yatra/files/Yatra.apk",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "appiumVersion": "1.13.0",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformVersion": "9.0",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "browserName": "",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "deviceOrientation": "portrait",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "version": "",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "deviceName": "Samsung Galaxy S9 WQHD GoogleAPI Emulator",[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platform": "ANDROID"[\n]"
+2019-11-09 23:37:53,179 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "browserName": "",[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android"[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "firstMatch": [][\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  }[\n]"
+2019-11-09 23:37:53,180 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "}"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Date: Sat, 09 Nov 2019 18:07:54 GMT[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Connection: close[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "WWW-Authenticate: Basic realm="Sauce OnDemand"[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Server: monocle/0.42[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "227[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Misconfigured -- Sauce Labs Authentication Error.[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "The following desired capabilities were received:[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "{'app': 'sauce-storage:http://github.com/NagpurTesters/Automation-POC/blob/master/Yatra/files/Yatra.apk',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'appiumVersion': '1.13.0',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'browserName': '',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'deviceName': 'Samsung Galaxy S9 WQHD GoogleAPI Emulator',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'deviceOrientation': 'portrait',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'platform': 'ANDROID',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'platformName': 'Android',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'platformVersion': '9.0',[\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << " 'version': ''}[\r][\n]"
+2019-11-09 23:37:53,780 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "0[\r][\n]"
+2019-11-09 23:37:53,781 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 401 Unauthorized
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Transfer-Encoding: chunked
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Date: Sat, 09 Nov 2019 18:07:54 GMT
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Connection: close
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Type: text/plain
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << WWW-Authenticate: Basic realm="Sauce OnDemand"
+2019-11-09 23:37:53,783 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Server: monocle/0.42
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Authentication required
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - ondemand.saucelabs.com:443 requested authentication
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Challenge for Negotiate authentication scheme not available
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Challenge for Kerberos authentication scheme not available
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Challenge for NTLM authentication scheme not available
+2019-11-09 23:37:53,789 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Challenge for Digest authentication scheme not available
+2019-11-09 23:37:53,793 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Selected authentication options: [BASIC [complete=true]]
+2019-11-09 23:37:53,793 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: Close connection
+2019-11-09 23:37:53,795 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {s}->https://ondemand.saucelabs.com:443
+2019-11-09 23:37:53,795 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to ondemand.saucelabs.com/66.85.49.22:443
+2019-11-09 23:37:53,795 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Connecting socket to ondemand.saucelabs.com/66.85.49.22:443 with timeout 120000
+2019-11-09 23:37:54,131 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-11-09 23:37:54,131 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-11-09 23:37:54,131 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Starting handshake
+2019-11-09 23:37:54,791 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Secure session established
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.2
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer principal: CN=ondemand.saucelabs.com
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer alternative names: [ondemand.saucelabs.com]
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=RapidSSL TLS RSA CA G1, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.43.135:59930<->66.85.49.22:443
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 10800000
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request POST /wd/hub/session HTTP/1.1
+2019-11-09 23:37:54,792 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: CHALLENGED
+2019-11-09 23:37:54,793 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Generating response to an authentication challenge using basic scheme
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Length: 1019
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Host: ondemand.saucelabs.com:443
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231)
+2019-11-09 23:37:54,800 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Authorization: Basic U2F0aXNoa2FtYmxlMTE6YjIzOTYwNzYtMThjMS00MWVjLTk0YWItYWI5ODA2OTk3NWNk
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Length: 1019[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Host: ondemand.saucelabs.com:443[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231)[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Authorization: Basic U2F0aXNoa2FtYmxlMTE6YjIzOTYwNzYtMThjMS00MWVjLTk0YWItYWI5ODA2OTk3NWNk[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "{[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "app": "sauce-storage:http://github.com/NagpurTesters/Automation-POC/blob/master/Yatra/files/Yatra.apk",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "appiumVersion": "1.13.0",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platformVersion": "9.0",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "browserName": "",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "deviceOrientation": "portrait",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platformName": "Android",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "version": "",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "deviceName": "Samsung Galaxy S9 WQHD GoogleAPI Emulator",[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platform": "ANDROID"[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  },[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2019-11-09 23:37:54,801 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "capabilities": {[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "app": "sauce-storage:http://github.com/NagpurTesters/Automation-POC/blob/master/Yatra/files/Yatra.apk",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "appiumVersion": "1.13.0",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformVersion": "9.0",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "browserName": "",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "deviceOrientation": "portrait",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "version": "",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "deviceName": "Samsung Galaxy S9 WQHD GoogleAPI Emulator",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platform": "ANDROID"[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "browserName": "",[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android"[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "firstMatch": [][\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  }[\n]"
+2019-11-09 23:37:54,802 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "}"
+2019-11-09 23:38:20,295 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-11-09 23:38:20,295 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Date: Sat, 09 Nov 2019 18:07:56 GMT[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Connection: close[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Server: monocle/0.42[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "ed[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "{"status": 13, "sessionId": "fad2150a8e614333a31fb0436c13f938", "value": {"message": "Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/fad2150a8e614333a31fb0436c13f938"}}[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "0[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Transfer-Encoding: chunked
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Date: Sat, 09 Nov 2019 18:07:56 GMT
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Connection: close
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2019-11-09 23:38:20,296 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Server: monocle/0.42
+2019-11-09 23:38:20,297 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Authentication succeeded
+2019-11-09 23:38:20,298 [DEBUG] org.apache.http.impl.client.TargetAuthenticationStrategy  - Caching 'basic' auth scheme for https://ondemand.saucelabs.com:443
+2019-11-09 23:38:20,315 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: Close connection
+2019-11-09 23:38:20,316 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+2019-11-09 23:38:20,316 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {s}->https://ondemand.saucelabs.com:443][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
